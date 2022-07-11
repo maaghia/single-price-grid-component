@@ -41,13 +41,13 @@ main{
     border-top-right-radius: 10px;
     padding: 30px 30px;
  }
- .white h3{
+ .white h1{
     font-size: 25px;
     font-weight: 700;
     color: hsl(179, 62%, 43%);
     padding-bottom: 18px;
  }
- .white h5{
+ .white h2{
     font-size: 20px;
     font-weight: 700;
     color: hsl(71, 73%, 54%);
@@ -142,6 +142,7 @@ main{
         display: flex;
         flex-direction: column;
         width: 315px;
+        margin: auto 40px;
     }
     .white p{
         font-size: 13px;
@@ -160,5 +161,8 @@ main{
     .right p{
         font-size: 12px;
         line-height: 20px;
+    }
+    .attribution{
+        display: none;
     }
 }
